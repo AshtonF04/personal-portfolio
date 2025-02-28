@@ -27,8 +27,8 @@ function About(){
 
             {/*About image div */}
             <div className="flex-1 flex justify-center items-center">
-                <div className="relative -rotate-6">
-                    <img className='relative shadow-xl border-black border-5 rounded-full' src='hero-image.jpg'></img>
+                <div className="relative">
+                    <img className='md:w-100 relative shadow-xl rounded-full' src='hero-image.jpg'></img>
                 </div>
             </div>
         </div>
