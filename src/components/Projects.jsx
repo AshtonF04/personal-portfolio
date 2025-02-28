@@ -3,10 +3,10 @@ function Projects(){
         <>
         <div className='flex flex-col gap-5'>
             <p className='text-4xl text-center'>Projects</p>
-            <div className='flex gap-5'>
+            <div className='flex flex-col md:flex-row gap-5'>
                 <div className="flex-1">
                     <a target="_blank" href='https://ashtonf04.github.io/ecobloom/'>
-                    <img className="w-175 rounded shadow-xl" src='ecobloom-screenshot.png'></img>
+                    <img className="w-100 md:w-175 rounded shadow-xl" src='ecobloom-screenshot.png'></img>
                     </a>
                 </div>
                 <div className="flex-1">
