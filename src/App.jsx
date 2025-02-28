@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react"
+
 import Header from './components/Header.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
