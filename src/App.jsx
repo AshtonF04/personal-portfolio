@@ -3,6 +3,7 @@ import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
 import Contact from './components/Contact.jsx'
+import Projects from './components/Projects.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <About />
         <Skills />
+        <Projects />
         <Experience />
         <Contact />
       </div>
