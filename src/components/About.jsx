@@ -18,7 +18,9 @@ function About(){
 
                 <div className="relative w-70">
                     <div className="blur absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg"></div>
+                    <a href='../../public/CS_Resume.pdf' target="_blank">
                     <button className="relative w-full">Get My Resume</button>
+                    </a>
                 </div>
 
             </div>
