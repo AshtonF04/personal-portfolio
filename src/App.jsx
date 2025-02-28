@@ -2,6 +2,7 @@ import Header from './components/Header.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
+import Contact from './components/Contact.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <About />
         <Skills />
         <Experience />
+        <Contact />
       </div>
     </>
   )

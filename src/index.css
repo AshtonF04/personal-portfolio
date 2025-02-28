@@ -52,6 +52,15 @@ h1 {
   background-color: #1a1a1a;
 }
 
+.contact-card{
+  background-color: #1a1a1a;
+}
+
+.contact-card:hover{
+  background-color: #121212;
+  transform: scale(1.05);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
