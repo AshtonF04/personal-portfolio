@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
+import Experience from './components/Experience.jsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <About />
         <Skills />
+        <Experience />
       </div>
     </>
   )

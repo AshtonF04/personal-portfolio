@@ -20,11 +20,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
+  transition: all .25s;
 }
 a:hover {
-  color: #4f56ea;
+  transform: scale(1.1);
 }
 
 body {
@@ -48,6 +48,10 @@ h1 {
   transform: scale(1.05);
 }
 
+.exp-card{
+  background-color: #1a1a1a;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -57,10 +61,11 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  transform: scale(1.01);
+  background-color: #121212;
 }
 
 @media (prefers-color-scheme: light) {
