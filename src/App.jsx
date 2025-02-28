@@ -12,7 +12,9 @@ function App() {
   return (
     <>
       <div className='flex w-full flex-col gap-15 px-6 py-6 md:py-8 md:px-12'>
+        <div className="hidden md:inline">
         <Header />
+        </div>
         <About />
         <Skills />
         <Projects />
