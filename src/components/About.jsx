@@ -18,7 +18,7 @@ function About(){
 
                 <div className="relative w-70">
                     <div className="blur absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg"></div>
-                    <a href='../../public/CS_Resume.pdf' target="_blank">
+                    <a href='CS_Resume.pdf' target="_blank">
                     <button className="relative w-full">Get My Resume</button>
                     </a>
                 </div>
@@ -28,7 +28,7 @@ function About(){
             {/*About image div */}
             <div className="flex-1 flex justify-center items-center">
                 <div className="relative -rotate-6">
-                    <img className='relative shadow-xl border-black border-5 rounded-full' src='../../public/hero-image.jpg'></img>
+                    <img className='relative shadow-xl border-black border-5 rounded-full' src='hero-image.jpg'></img>
                 </div>
             </div>
         </div>
