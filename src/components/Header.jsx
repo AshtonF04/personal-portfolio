@@ -1,7 +1,7 @@
 function Header(){
     return (
     <>
-    <div className='flex justify-between'>
+    <div className='flex justify-between animate-fade-down animate-once animate-duration-500 animate-ease-linear animate-normal'>
         <h2 className='text-3xl'>Ashton Franklin</h2>
         <div className='flex gap-5'>
             <a href="#About" className='hidden text-xl sm:inline'>About</a>

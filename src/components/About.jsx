@@ -3,7 +3,7 @@ function About(){
         <>
         <div id="About" className='flex flex-col gap-14 justify-between md:flex-row'>
             {/*About text div*/}
-            <div className="flex-1 flex flex-col gap-5 text-2xl">
+            <div className="flex-1 flex flex-col gap-5 text-2xl animate-fade-right">
 
                 <div className="flex flex-col gap-2">
                     <p className='text-purple-300'>Hello! I am</p>
@@ -26,7 +26,7 @@ function About(){
             </div>
 
             {/*About image div */}
-            <div className="flex-1 flex justify-center items-center">
+            <div className="flex-1 flex justify-center items-center animate-fade-left">
                 <div className="relative">
                     <img className='md:w-100 relative shadow-xl rounded-full' src='hero-image.jpg'></img>
                 </div>

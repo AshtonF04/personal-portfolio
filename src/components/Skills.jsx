@@ -1,7 +1,7 @@
 function Skills(){
     return (
         <>
-        <div id='Skills' className='flex flex-col gap-3'>
+        <div id='Skills' className='flex flex-col gap-3 animate-flip-up animate-once animate-ease-linear animate-normal animate-duration-750'>
             <h2 className="text-4xl text-center">Skills</h2>
 
             <div className="flex flex-col gap-2">
